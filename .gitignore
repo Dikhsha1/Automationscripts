@@ -1,0 +1,28 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Browser profiles
+chrome-debug-profile/
+chrome-qa-profile/
+.playwright-mcp/
+
+# Playwright reports
+test-results/
+playwright-report/
+
+# Wallet data
+wallets.json
+created-users.json
+wallet-setup/
+
+# Generated reports
+*.csv
+
+# Logs
+*.log

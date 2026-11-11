@@ -1,0 +1,12 @@
+{
+  "name": "ssp-skim-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node qa-skim.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "viem": "^2.55.19"
+  }
+}
